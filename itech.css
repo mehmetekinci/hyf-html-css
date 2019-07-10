@@ -1,0 +1,365 @@
+body{
+  background:#7C7C7C;
+  background-image: url("http://afmyazilim.com/arcelik/img/logo/Apple.png") ;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:1000px 1000px;
+  background-attachment: fixed;
+  margin:0; 
+} 
+
+header div{
+  
+  margin-bottom:-20px;
+  padding:1px;
+  text-align:center;
+ 
+  
+  
+  
+  
+}
+
+.header img {
+  float: left;
+  width: 110px;
+  position:absolute;
+  margin-left:-120px;
+ 
+}
+
+.header h1 {
+  position: relative;
+  font-size:90px;
+  left:100px;
+  top:-32px;
+  color:silver;
+}
+
+nav a{
+  color:silver;
+  text-decoration: none;
+  top:-50px;
+  margin-left:30px;
+  font-size:25px;
+  position: relative;
+  
+ 
+}
+
+nav a:hover{
+background-color:silver;
+color:black;
+}
+header{
+  background-color:black;
+  width:100%;
+  margin-top:-30px;
+  margin-left:0;
+  maring-right:0;
+  position: fixed;
+  z-index:1;
+   
+}
+.z-index{
+  z-index:0;
+  
+}
+
+#content{
+  font-family:"Times New Roman","arial" sans-serif;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
+  padding-top:290px;
+  position:relative;
+  
+}
+#follow{
+  color:white;
+  text-decoration:none;
+  font-size:40px;
+  
+  
+}
+
+#follow:hover{
+  background-color:black;
+  color:white;
+  
+  
+}
+.title{
+  font-size:70px;
+  text-align:center;
+}
+.tableapple{
+  margin-right:auto;
+  margin-left:auto;
+  padding:50px;
+}
+table img{
+ margin-left:35px;
+}
+#contact{
+  font-size:30px;
+  text-align:center;
+  text-decoration:underline;
+  padding:50px;
+  
+}
+.website{
+  
+ text-align:center;
+ 
+}
+a{
+  color:black;
+  text-decoration:none;
+  font-size:25px
+  
+}
+
+
+
+
+  
+#xsmax{
+  width:300px;
+  height:;
+}
+#xs{
+  width:270px;
+  height:;
+}
+#xr{
+  width:300px;
+  height:;
+}
+#x{
+  width:200px;
+  height:;
+}
+#macbook{
+  width:250px;
+  height:;
+}
+#air{
+  width:300px;
+  height:;
+}
+#pro{
+  width:300px;
+  height:;
+}
+#imac{
+  width:400px;
+  height:;
+}
+#ipadpro{
+  width:200px;
+  height:;
+}
+#ipadair{
+  width:200px;
+  height:;
+}
+#ipad{
+  width:200px;
+  height:;
+}
+#mini{
+  width:200px;
+  height:;
+}
+div li{
+    
+    font-family:Time New Roman;
+    font-size:20px;
+    font-weight:bold;
+  
+  }
+@media screen and (min-width:0px) and (max-width:1360) {
+  body{
+  background:#7C7C7C;
+  background-image: url("http://afmyazilim.com/arcelik/img/logo/Apple.png") ;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100px 100px;
+  background-attachment: fixed;
+  margin:0; 
+} 
+
+header div{
+  
+  margin-bottom:-20px;
+  padding:1px;
+  text-align:center;
+ 
+  
+  
+  
+  
+}
+
+.header img {
+  float: left;
+  width: 11px;
+  position:absolute;
+  margin-left:-12px;
+ 
+}
+
+.header h1 {
+  position: relative;
+  font-size:9px;
+  left:10px;
+  top:-3.2px;
+  color:silver;
+}
+
+nav a{
+  color:silver;
+  text-decoration: none;
+  top:-5px;
+  margin-left:3px;
+  font-size:2.5px;
+  position: relative;
+  
+ 
+}
+
+nav a:hover{
+background-color:silver;
+color:black;
+}
+header{
+  background-color:black;
+  width:100%;
+  margin-top:-3px;
+  margin-left:0;
+  maring-right:0;
+  position: fixed;
+  z-index:1;
+   
+}
+.z-index{
+  z-index:0;
+  
+}
+
+#content{
+  font-family:"Times New Roman","arial" sans-serif;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
+  padding-top:29px;
+  position:relative;
+  
+}
+#follow{
+  color:white;
+  text-decoration:none;
+  font-size:40px;
+  
+  
+}
+
+#follow:hover{
+  background-color:black;
+  color:white;
+  
+  
+}
+.title{
+  font-size:7px;
+  text-align:center;
+}
+.tableapple{
+  margin-right:auto;
+  margin-left:auto;
+  padding:50px;
+}
+table img{
+ margin-left:35px;
+}
+#contact{
+  font-size:30px;
+  text-align:center;
+  text-decoration:underline;
+  padding:50px;
+  
+}
+.website{
+  
+ text-align:center;
+ 
+}
+a{
+  color:black;
+  text-decoration:none;
+  font-size:25px
+  
+}
+
+
+
+
+  
+#xsmax{
+  width:300px;
+  height:;
+}
+#xs{
+  width:270px;
+  height:;
+}
+#xr{
+  width:300px;
+  height:;
+}
+#x{
+  width:200px;
+  height:;
+}
+#macbook{
+  width:250px;
+  height:;
+}
+#air{
+  width:300px;
+  height:;
+}
+#pro{
+  width:300px;
+  height:;
+}
+#imac{
+  width:400px;
+  height:;
+}
+#ipadpro{
+  width:200px;
+  height:;
+}
+#ipadair{
+  width:200px;
+  height:;
+}
+#ipad{
+  width:200px;
+  height:;
+}
+#mini{
+  width:200px;
+  height:;
+}
+div li{
+    
+    font-family:Time New Roman;
+    font-size:20px;
+    font-weight:bold;
+  
+  }
+
+}
