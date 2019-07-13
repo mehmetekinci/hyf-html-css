@@ -1,0 +1,62 @@
+body, html, h1, h2, section{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.class2{
+    float:right;
+    max-width:60%;
+    position: absolute;
+    max-width: margin left 2%;
+    right: 10%;
+    left:30%;
+    background-color: #dadada;   
+}
+main{
+    position: fixed;
+    width: 20%;
+    left:10%;
+    background-color: #1c2938;
+    text-align: center;
+    color:white; 
+    min-height:100%;  
+    font-size: 12px;
+}
+td{
+    text-align: left;
+}
+img{
+    max-width:40%;
+    clear:left;
+    margin-top: 5%;    
+}
+section{
+    margin-bottom: 20px;
+}
+h2,h1{
+    background-color: #f96d15 ;
+}
+
+.heading{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    float: left;
+    clear: left;
+    background-color: #f96d15;
+}
+.content{
+    margin-bottom: 10em ;
+    margin-top: 2em; 
+    height:100px;
+    display: flex; 
+}
+p{
+    padding-left: 60px ;
+    padding-right: 10px;
+}
+hr{
+    width: 50%;
+}
+dl{
+    justify-content: center;
+}
