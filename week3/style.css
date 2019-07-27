@@ -351,10 +351,16 @@ section:nth-child(3) {
 
 @media (min-width: 768px) and (max-width: 991px) {
   /*tablet*/
-  .subscribe-line-details {
+ .subscribe-line-details {
     padding-left: 32px;
   }
-  .main-card {
+  .main-card,
+  .header-nav,
+  .header-locale-select {
+    display: none;
+  }
+
+  #visible-none {
     display: none;
   }
 
@@ -363,7 +369,7 @@ section:nth-child(3) {
   }
 
   .card-grid {
-    width: calc(50% - 30px);
+    width: calc(100% - 30px);
   }
   .card-grid.card-grid-featured {
     position: relative;
