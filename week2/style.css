@@ -16,7 +16,7 @@ header {
 
 @keyframes header {
   from {font-size: 0px;color: white;}
-  to {margine-top: 0px;}
+  to {margin-top: 0px;}
 }
 
 h2{
