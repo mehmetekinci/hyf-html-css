@@ -493,7 +493,7 @@ section:nth-child(3) {
   }
   
   .card-grid-default{
-    max-height: 150px;
+    height: auto;
     display: flex;
     align-items: center;
   }
@@ -506,25 +506,45 @@ section:nth-child(3) {
   }
 
   .card-grid-extra{
-    max-height: 150px;
+    height: auto;
     display: flex;
     align-items: center;
   }
 
   .card-group-details{
-   height: 150px;
+   height: auto;
   }
 
   .card-group-details-content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 150px;
+    height: auto;
+    padding:5px 5px;
+    font-size: 0.7rem;
   }
 
   .subscribe-line-details {
     padding: 25px 0px 0px 0px;
     margin-left: 0px;
     margin-right: 0px; 
+  }
+
+  .locale-and-media {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .global-footer{
+    height: 260px;
+  }
+
+  .google-logo{
+    padding-bottom: 10px;
+  }
+  
+  .locale-select{
+    padding: 20px 0px;
   }
 }
