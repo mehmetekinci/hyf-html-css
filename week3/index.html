@@ -1,498 +1,391 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <title>
-      Think with Google - Discover Marketing Research & Digital Trends
-    </title>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="header-full">
-          <div class="header-left">
-            <div>
-              <img
-                src="img/twg-logo-color.png"
-                alt="twg-logo"
-                class="header-logo"
-              />
-            </div>
-            <div>
-              <select
-                class="header-locale-select"
-                aria-label="Select your location"
-                ><!---->
-                <option data-locale="en-us" value="/"
-                  >English - United States</option
-                ><option data-locale="zh-tw" value="/intl/zh-tw/"
-                  >中文 - 台灣</option
-                ><option data-locale="de-de" value="/intl/de-de/"
-                  >Deutsch - Deutschland</option
-                ><option data-locale="en-apac" value="/intl/en-apac/"
-                  >English - Asia Pacific</option
-                ><option data-locale="en-au" value="/intl/en-aunz/"
-                  >English - Australia</option
-                ><option data-locale="en-ca" value="/intl/en-ca/"
-                  >English - Canada</option
-                ><option data-locale="en-cee" value="/intl/en-cee/"
-                  >English - Central Eastern Europe</option
-                ><option data-locale="en-145" value="/intl/en-145/"
-                  >English - MENA</option
-                ><option data-locale="fr-145" value="/intl/fr-145/"
-                  >Français - MENA</option
-                ><option data-locale="en-154" value="/intl/en-154/"
-                  >English - Nordics &amp; Benelux</option
-                ><option data-locale="en-gb" value="/intl/en-gb/"
-                  >English - United Kingdom</option
-                ><option data-locale="en-us" value="/"
-                  >English - United States</option
-                ><option data-locale="es-es" value="/intl/es-es/"
-                  >Español - España</option
-                ><option data-locale="es-419" value="/intl/es-419/"
-                  >Español - Latinoamérica</option
-                ><option data-locale="fr-fr" value="/intl/fr-fr/"
-                  >Français - France</option
-                ><option data-locale="it-it" value="/intl/it-it/"
-                  >Italiano - Italia</option
-                ><option data-locale="ja-jp" value="/intl/ja-jp/"
-                  >日本語 - 日本</option
-                ><option data-locale="ko-kr" value="/intl/ko-kr/"
-                  >한국어 - 대한민국</option
-                ><option data-locale="pt-br" value="/intl/pt-br/"
-                  >Português (Brasil) - Brasil</option
-                ><option data-locale="ru-ru" value="/intl/ru-ru/"
-                  >русский - Россия</option
-                ><option data-locale="th-th" value="/intl/th-th/"
-                  >ภาษาไทย - ประเทศไทย</option
-                ><option data-locale="tr-tr" value="/intl/tr-tr/"
-                  >Türkçe - Türkiye</option
-                >
-              </select>
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700|Roboto+Slab:300|Roboto:300,300i,400,400i,500,500i,700,700i&subset=cyrillic,cyrillic-ext,latin-ext"
+    rel="stylesheet" />
+  <title>
+    Think with Google - Discover Marketing Research & Digital Trends
+  </title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-full">
+        <div class="header-left">
+          <div>
+            <img src="img/twg-logo-color.png" alt="twg-logo" class="header-logo" />
           </div>
-          <div class="header-right">
-            <div class="header-nav">
-              <div><a href="">Consumer Insights</a></div>
-              <div><a href="">Marketing Resources</a></div>
-              <div><a href="">Advertising Channels</a></div>
-            </div>
-            <div class="search-button">
-              <span class="z1asCe MZy1Rb">
-                <svg
-                  focusable="false"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
-                  ></path>
-                </svg>
-              </span>
-            </div>
+          <div>
+            <select class="header-locale-select" aria-label="Select your location">
+              <!---->
+              <option data-locale="en-us" value="/">English - United States</option>
+              <option data-locale="zh-tw" value="/intl/zh-tw/">中文 - 台灣</option>
+              <option data-locale="de-de" value="/intl/de-de/">Deutsch - Deutschland</option>
+              <option data-locale="en-apac" value="/intl/en-apac/">English - Asia Pacific</option>
+              <option data-locale="en-au" value="/intl/en-aunz/">English - Australia</option>
+              <option data-locale="en-ca" value="/intl/en-ca/">English - Canada</option>
+              <option data-locale="en-cee" value="/intl/en-cee/">English - Central Eastern Europe</option>
+              <option data-locale="en-145" value="/intl/en-145/">English - MENA</option>
+              <option data-locale="fr-145" value="/intl/fr-145/">Français - MENA</option>
+              <option data-locale="en-154" value="/intl/en-154/">English - Nordics &amp; Benelux</option>
+              <option data-locale="en-gb" value="/intl/en-gb/">English - United Kingdom</option>
+              <option data-locale="en-us" value="/">English - United States</option>
+              <option data-locale="es-es" value="/intl/es-es/">Español - España</option>
+              <option data-locale="es-419" value="/intl/es-419/">Español - Latinoamérica</option>
+              <option data-locale="fr-fr" value="/intl/fr-fr/">Français - France</option>
+              <option data-locale="it-it" value="/intl/it-it/">Italiano - Italia</option>
+              <option data-locale="ja-jp" value="/intl/ja-jp/">日本語 - 日本</option>
+              <option data-locale="ko-kr" value="/intl/ko-kr/">한국어 - 대한민국</option>
+              <option data-locale="pt-br" value="/intl/pt-br/">Português (Brasil) - Brasil</option>
+              <option data-locale="ru-ru" value="/intl/ru-ru/">русский - Россия</option>
+              <option data-locale="th-th" value="/intl/th-th/">ภาษาไทย - ประเทศไทย</option>
+              <option data-locale="tr-tr" value="/intl/tr-tr/">Türkçe - Türkiye</option>
+            </select>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="header-nav">
+            <div><a href="">Consumer Insights</a></div>
+            <div><a href="">Marketing Resources</a></div>
+            <div><a href="">Advertising Channels</a></div>
+          </div>
+          <div class="search-button">
+            <span class="z1asCe MZy1Rb">
+              <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                </path>
+              </svg>
+            </span>
           </div>
         </div>
       </div>
-    </header>
-    <main class="main">
-      <section class="main-card">
-        <div class="container">
-          <div class="main-card-details">
-            <div class="left-content">
-              <h1>
-                Insights you want.<br />
-                Inspiration you need.
-              </h1>
-              <div class="left-bottom-content ">
-                <div>Stay on top of the latest and greatest</div>
-                <a href=""> SUBSCRIBE</a>
-              </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="main-card">
+      <div class="container">
+        <div class="main-card-details">
+          <div class="left-content">
+            <h1 class="h1-content">
+              Insights you want.<br />
+              Inspiration you need.
+            </h1>
+            <div class="left-bottom-content ">
+              <div>Stay on top of the latest and greatest</div>
+              <a href=""> SUBSCRIBE</a>
             </div>
-            <div class="right-content">
-              <a href="">
-                Get your site up to speed with the new Test <br />
-                My Site. Enter your domain now for <br />
-                customized tips and fixes.
+          </div>
+          <div class="right-content">
+            <a href="">
+              Get your site up to speed with the new Test <br />
+              My Site. Enter your domain now for <br />
+              customized tips and fixes.
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section okay>
+      <div class="container">
+        <div class="card-group">
+          <h2 class="visible-none">Latest trends and stories</h2>
+          <div class="card-group-grid">
+            <div class="card-grid card-grid-featured">
+              <a href="#">
+                <img src="img/1578_thumbnail_YT-Works-Creator-Partnerships_0.width-800.jpg"
+                  alt="YT-Works-Creator-Partnerships" />
+                <div class="card-group-details">
+                  <h4>
+                    Keeping it real: How brands are tapping into the cultural
+                    zeitgeist
+                  </h4>
+                  <footer class="card-group-footer">
+                    Case Study - July 2019
+                  </footer>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid card-grid-default">
+              <a href="#">
+                <img src="img/1593_thumbnail_creators-longform-content.width-800.jpg" alt="creators-longform-content" />
+                <div class="card-group-details">
+                  <h4>
+                    How to create long-form videos that will keep people
+                    watching
+                  </h4>
+                  <footer>
+                    Article - July 2019
+                  </footer>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid card-grid-default">
+              <a href="#">
+                <img src="img/1591_thumbnail_Edgewell-Famebit.width-800.jpg" alt="Edgewell-Famebit" />
+                <div class="card-group-details">
+                  <h4>
+                    How to build a full-funnel influencer marketing campaign
+                  </h4>
+                  <footer>
+                    Case Study - July 2019
+                  </footer>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid card-grid-default">
+              <a href="#">
+                <img src="img/1587_thumbnail_Need-States-Op-Ed.width-800.jpg" alt="Need-States-Op-Ed" />
+                <div class="card-group-details">
+                  <h4>
+                    Reflect, connect, learn: How video is fulfilling new roles
+                    in people’s lives
+                  </h4>
+                  <footer>
+                    Perspective - July 2019
+                  </footer>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid card-grid-default">
+              <a href="#">
+                <img src="img/1543_thumbnail_20th_Century_Fox-_Video_Ad_Sequ.width-800.jpg"
+                  alt="20th_Century_Fox-_Video_Ad_Sequ" />
+                <div class="card-group-details">
+                  <h4>
+                    It’s time to reinvent the way stories are told. Here are 3
+                    proven approaches to try
+                  </h4>
+                  <footer>
+                    Perspective - July 2019
+                  </footer>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid card-grid-featured">
+              <a href="#">
+                <img src="img/Rihanna.width-800.jpg" alt="Rihanna" />
+                <div class="card-group-details">
+                  <h4>
+                    How Rihanna’s Fenty Beauty delivered ‘Beauty for All’ —
+                    and a wake-up call to the industry
+                  </h4>
+                  <footer class="card-group-footer">
+                    Case Study - June 2019
+                  </footer>
+                </div>
               </a>
             </div>
           </div>
         </div>
-      </section>
-      <section okay>
-        <div class="container">
-          <div class="card-group">
-            <h2 id="visible-none">Latest trends and stories</h2>
-            <div class="card-group-grid">
-              <div class="card-grid card-grid-featured">
-                <a href="#">
-                  <img
-                    src="img/1578_thumbnail_YT-Works-Creator-Partnerships_0.width-800.jpg"
-                    alt="YT-Works-Creator-Partnerships"
-                  />
-                  <div class="card-group-details">
-                    <h4>
-                      Keeping it real: How brands are tapping into the cultural
-                      zeitgeist
-                    </h4>
-                    <footer class="card-group-footer">
-                      Case Study - July 2019
-                    </footer>
-                  </div>
-                </a>
-              </div>
-              <div class="card-grid card-grid-default">
-                <a href="#">
-                  <img
-                    src="img/1593_thumbnail_creators-longform-content.width-800.jpg"
-                    alt="creators-longform-content"
-                  />
-                  <div class="card-group-details">
-                    <h4>
-                      How to create long-form videos that will keep people
-                      watching
-                    </h4>
-                    <footer>
-                      Article - July 2019
-                    </footer>
-                  </div>
-                </a>
-              </div>
-              <div class="card-grid card-grid-default">
-                <a href="#">
-                  <img
-                    src="img/1591_thumbnail_Edgewell-Famebit.width-800.jpg"
-                    alt="Edgewell-Famebit"
-                  />
-                  <div class="card-group-details">
-                    <h4>
-                      How to build a full-funnel influencer marketing campaign
-                    </h4>
-                    <footer>
-                      Case Study - July 2019
-                    </footer>
-                  </div>
-                </a>
-              </div>
-              <div class="card-grid card-grid-default">
-                <a href="#">
-                  <img
-                    src="img/1587_thumbnail_Need-States-Op-Ed.width-800.jpg"
-                    alt="Need-States-Op-Ed"
-                  />
-                  <div class="card-group-details">
-                    <h4>
-                      Reflect, connect, learn: How video is fulfilling new roles
-                      in people’s lives
-                    </h4>
-                    <footer>
-                      Perspective - July 2019
-                    </footer>
-                  </div>
-                </a>
-              </div>
-              <div class="card-grid card-grid-default">
-                <a href="#">
-                  <img
-                    src="img/1543_thumbnail_20th_Century_Fox-_Video_Ad_Sequ.width-800.jpg"
-                    alt="20th_Century_Fox-_Video_Ad_Sequ"
-                  />
-                  <div class="card-group-details">
-                    <h4>
-                      It’s time to reinvent the way stories are told. Here are 3
-                      proven approaches to try
-                    </h4>
-                    <footer>
-                      Perspective - July 2019
-                    </footer>
-                  </div>
-                </a>
-              </div>
-              <div class="card-grid card-grid-featured">
-                <a href="#">
-                  <img src="img/Rihanna.width-800.jpg" alt="Rihanna" />
-                  <div class="card-group-details">
-                    <h4>
-                      How Rihanna’s Fenty Beauty delivered ‘Beauty for All’ —
-                      and a wake-up call to the industry
-                    </h4>
-                    <footer class="card-group-footer">
-                      Case Study - June 2019
-                    </footer>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section okay>
-        <div class="container">
-          <div class="page-content">
-            <h2>Take a deeper dive</h2>
-            <div class="page-content-details">
-              <div class="page-content-boxes">
+      </div>
+    </section>
+    <section okay>
+      <div class="container">
+        <div class="page-content">
+          <h2>Take a deeper dive</h2>
+          <div class="page-content-details">
+            <div class="page-content-boxes">
+              <div class="deeper-dive-header">
                 <h3>
                   Marketing Resources
-                  <img
-                    class="icons"
-                    src="img/icon_resources-01.svg"
-                    alt="marketing-resources"
-                  />
+                  <img class="icons" src="img/icon_resources-01.svg" alt="marketing-resources" />
                 </h3>
-                <div>
-                  <div><a href="#">Data Analytics & Measurement</a></div>
-                  <div><a href="#">User Experience & Design</a></div>
-                  <div><a href="#">Mobile</a></div>
-                  <div><a href="#">Omnichannel</a></div>
-                  <div><a href="#">Programmatic Advertising</a></div>
-                </div>
               </div>
-              <div class="page-content-boxes">
+              <div>
+                <div class="deeper-dive-details"><a href="#">Data Analytics & Measurement</a></div>
+                <div class="deeper-dive-details"><a href="#">User Experience & Design</a></div>
+                <div class="deeper-dive-details"><a href="#">Mobile</a></div>
+                <div class="deeper-dive-details"><a href="#">Omnichannel</a></div>
+                <div class="deeper-dive-details"><a href="#">Programmatic Advertising</a></div>
+              </div>
+            </div>
+            <div class="page-content-boxes">
+              <div class="deeper-dive-header">
                 <h3>
                   Advertising Channels
-                  <img
-                    class="icons"
-                    src="img/icon_marketingstrategies-01.svg"
-                    alt="advertising-strategies"
-                  />
+                  <img class="icons" src="img/icon_marketingstrategies-01.svg" alt="advertising-strategies" />
                 </h3>
-                <div>
-                  <div><a href="#">Emerging & Assistive Technology</a></div>
-                  <div><a href="#">Search</a></div>
-                  <div><a href="#">Marketing on YouTube</a></div>
-                </div>
               </div>
-              <div class="page-content-boxes">
+              <div>
+                <div class="deeper-dive-details"><a href="#">Emerging & Assistive Technology</a></div>
+                <div class="deeper-dive-details"><a href="#">Search</a></div>
+                <div class="deeper-dive-details"><a href="#">Marketing on YouTube</a></div>
+              </div>
+            </div>
+            <div class="page-content-boxes">
+              <div class="deeper-dive-header">
                 <h3>
                   Consumer Insights
                   <img class="icons" src="img/bag-icon.svg" alt="bag-icon" />
                 </h3>
-                <p>
-                  Learn about consumer trends, from how people are using <br />
-                  apps to video consumption on mobile.
-                </p>
+              </div>
+              <p class="deeper-dive-details">
+                Learn about consumer trends, from how people are using <br />
+                apps to video consumption on mobile.
+              </p>
+              <div><a href="#">Consumer Insights</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <h2>Tools for marketers</h2>
+          <div>
+            <div class="card-group-grid">
+              <div class="card-grid card-grid-extra">
                 <div>
-                  <div><a href="#">Consumer Insights</a></div>
+                  <img src="img/bedazzler-culture-trends.gif" alt="culture-trends-gif" />
+                  <div class="card-group-details card-group-details-content">
+                    <h3>Culture & Trends</h3>
+                    <p>
+                      I want to find out what my potential customers are
+                      engaging with and searching for.
+                    </p>
+                    <footer><a href="#">LEARN MORE</a></footer>
+                  </div>
+                </div>
+              </div>
+              <div class="card-grid card-grid-extra">
+                <div>
+                  <img src="img/bedazzler-competetive-analysis.gif" alt="competetive-analysis-gif" />
+                  <div class="card-group-details card-group-details-content">
+                    <h3>Competitive Analysis</h3>
+                    <p>
+                      I want to see how my brand compares against industry
+                      benchmarks.
+                    </p>
+                    <footer><a href="#">LEARN MORE</a></footer>
+                  </div>
+                </div>
+              </div>
+              <div class="card-grid card-grid-extra">
+                <div>
+                  <img src="img/bedazzler-consumer-insights.gif" alt="consumer-insights-gif" />
+                  <div class="card-group-details card-group-details-content">
+                    <h3>Consumer Insights</h3>
+                    <p>
+                      I want to make better decisions about my marketing
+                      campaigns and ad spending.
+                    </p>
+                    <footer><a href="#">LEARN MORE</a></footer>
+                  </div>
+                </div>
+              </div>
+              <div class="card-grid card-grid-extra">
+                <div>
+                  <img src="img/bedazzler-diagnostics.gif" alt="diagnostics-gif" />
+                  <div class="card-group-details card-group-details-content">
+                    <h3>Diagnostic Tools & Industry Benchmarks</h3>
+                    <p>
+                      I want to measure my brand's performance and get tips on
+                      improving key metrics.
+                    </p>
+                    <footer><a href="#">LEARN MORE</a></footer>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card-group">
-            <h2>Tools for marketers</h2>
-            <div>
-              <div class="card-group-grid">
-                <div class="card-grid card-grid-extra">
-                  <div>
-                    <img
-                      src="img/bedazzler-culture-trends.gif"
-                      alt="culture-trends-gif"
-                    />
-                    <div class="card-group-details card-group-details-content">
-                      <h3>Culture & Trends</h3>
-                      <p>
-                        I want to find out what my potential customers are
-                        engaging with and searching for.
-                      </p>
-                      <footer><a href="#">LEARN MORE</a></footer>
-                    </div>
-                  </div>
-                </div>
-                <li class="card-grid card-grid-extra">
-                  <div>
-                    <img
-                      src="img/bedazzler-competetive-analysis.gif"
-                      alt="competetive-analysis-gif"
-                    />
-                    <div class="card-group-details card-group-details-content">
-                      <h3>Competitive Analysis</h3>
-                      <p>
-                        I want to see how my brand compares against industry
-                        benchmarks.
-                      </p>
-                      <footer><a href="#">LEARN MORE</a></footer>
-                    </div>
-                  </div>
-                </li>
-                <li class="card-grid card-grid-extra">
-                  <div>
-                    <img
-                      src="img/bedazzler-consumer-insights.gif"
-                      alt="consumer-insights-gif"
-                    />
-                    <div class="card-group-details card-group-details-content">
-                      <h3>Consumer Insights</h3>
-                      <p>
-                        I want to make better decisions about my marketing
-                        campaigns and ad spending.
-                      </p>
-                      <footer><a href="#">LEARN MORE</a></footer>
-                    </div>
-                  </div>
-                </li>
-                <li class="card-grid card-grid-extra">
-                  <div>
-                    <img
-                      src="img/bedazzler-diagnostics.gif"
-                      alt="diagnostics-gif"
-                    />
-                    <div class="card-group-details card-group-details-content">
-                      <h3>Diagnostic Tools & Industry Benchmarks</h3>
-                      <p>
-                        I want to measure my brand's performance and get tips on
-                        improving key metrics.
-                      </p>
-                      <footer><a href="#">LEARN MORE</a></footer>
-                    </div>
-                  </div>
-                </li>
-              </div>
-            </div>
-            <footer class="card-grid-footer">
-              <a href="#">SEE ALL TOOLS</a>
-            </footer>
-          </div>
+          <footer class="card-grid-footer">
+            <a href="#">SEE ALL TOOLS</a>
+          </footer>
         </div>
-      </section>
-      <section okay gibi class="subscribe-line">
-        <div class="container">
-          <div class="subscribe-line-inline">
-            <div class="subscribe-line-details">
-              <h2>
-                Get the latest data, insights, and inspiration from Google.
-              </h2>
-              <a class="subscribe" href="#">SUBSCRIBE</a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="global-footer">
+      </div>
+    </section>
+    <section okay gibi class="subscribe-line">
       <div class="container">
-        <div class="global-footer-box">
-          <div class="nav-and-logo">
-            <a class="google-logo" href="#">
-              <img
-                src="img/google-logo.png"
-                alt="google-logo"
-                class="footer-logo"
-              />
-            </a>
-            <nav class="nav-bar">
-              <div><a href="#">About Google</a></div>
-              <div><a href="#">Products</a></div>
-              <div><a href="#">Advertising</a></div>
-              <div><a href="#">Business</a></div>
-              <div><a href="#">Privacy & Terms</a></div>
-              <div><a href="#">About Think with Google</a></div>
-            </nav>
+        <div class="subscribe-line-inline">
+          <div class="subscribe-line-details">
+            <h2>
+              Get the latest data, insights, and inspiration from Google.
+            </h2>
+            <a class="subscribe" href="#">SUBSCRIBE</a>
           </div>
-          <div class="locale-and-media">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="global-footer">
+    <div class="container">
+      <div class="global-footer-box">
+        <div class="nav-and-logo">
+          <a class="google-logo" href="#">
+            <img src="img/google-logo.png" alt="google-logo" class="footer-logo" />
+          </a>
+          <nav class="nav-bar">
+            <div><a href="#">About Google</a></div>
+            <div><a href="#">Products</a></div>
+            <div><a href="#">Advertising</a></div>
+            <div><a href="#">Business</a></div>
+            <div><a href="#">Privacy & Terms</a></div>
+            <div><a href="#">About Think with Google</a></div>
+          </nav>
+        </div>
+        <div class="locale-and-media">
+          <div>
+            <select class="locale-select" aria-label="Select your location">
+              <!---->
+              <option data-locale="en-us" value="/">English - United States</option>
+              <option data-locale="zh-tw" value="/intl/zh-tw/">中文 - 台灣</option>
+              <option data-locale="de-de" value="/intl/de-de/">Deutsch - Deutschland</option>
+              <option data-locale="en-apac" value="/intl/en-apac/">English - Asia Pacific</option>
+              <option data-locale="en-au" value="/intl/en-aunz/">English - Australia</option>
+              <option data-locale="en-ca" value="/intl/en-ca/">English - Canada</option>
+              <option data-locale="en-cee" value="/intl/en-cee/">English - Central Eastern Europe</option>
+              <option data-locale="en-145" value="/intl/en-145/">English - MENA</option>
+              <option data-locale="fr-145" value="/intl/fr-145/">Français - MENA</option>
+              <option data-locale="en-154" value="/intl/en-154/">English - Nordics &amp; Benelux</option>
+              <option data-locale="en-gb" value="/intl/en-gb/">English - United Kingdom</option>
+              <option data-locale="en-us" value="/">English - United States</option>
+              <option data-locale="es-es" value="/intl/es-es/">Español - España</option>
+              <option data-locale="es-419" value="/intl/es-419/">Español - Latinoamérica</option>
+              <option data-locale="fr-fr" value="/intl/fr-fr/">Français - France</option>
+              <option data-locale="it-it" value="/intl/it-it/">Italiano - Italia</option>
+              <option data-locale="ja-jp" value="/intl/ja-jp/">日本語 - 日本</option>
+              <option data-locale="ko-kr" value="/intl/ko-kr/">한국어 - 대한민국</option>
+              <option data-locale="pt-br" value="/intl/pt-br/">Português (Brasil) - Brasil</option>
+              <option data-locale="ru-ru" value="/intl/ru-ru/">русский - Россия</option>
+              <option data-locale="th-th" value="/intl/th-th/">ภาษาไทย - ประเทศไทย</option>
+              <option data-locale="tr-tr" value="/intl/tr-tr/">Türkçe - Türkiye</option>
+            </select>
+          </div>
+          <div class="media-bar">
             <div>
-              <select class="locale-select" aria-label="Select your location"
-                ><!---->
-                <option data-locale="en-us" value="/"
-                  >English - United States</option
-                ><option data-locale="zh-tw" value="/intl/zh-tw/"
-                  >中文 - 台灣</option
-                ><option data-locale="de-de" value="/intl/de-de/"
-                  >Deutsch - Deutschland</option
-                ><option data-locale="en-apac" value="/intl/en-apac/"
-                  >English - Asia Pacific</option
-                ><option data-locale="en-au" value="/intl/en-aunz/"
-                  >English - Australia</option
-                ><option data-locale="en-ca" value="/intl/en-ca/"
-                  >English - Canada</option
-                ><option data-locale="en-cee" value="/intl/en-cee/"
-                  >English - Central Eastern Europe</option
-                ><option data-locale="en-145" value="/intl/en-145/"
-                  >English - MENA</option
-                ><option data-locale="fr-145" value="/intl/fr-145/"
-                  >Français - MENA</option
-                ><option data-locale="en-154" value="/intl/en-154/"
-                  >English - Nordics &amp; Benelux</option
-                ><option data-locale="en-gb" value="/intl/en-gb/"
-                  >English - United Kingdom</option
-                ><option data-locale="en-us" value="/"
-                  >English - United States</option
-                ><option data-locale="es-es" value="/intl/es-es/"
-                  >Español - España</option
-                ><option data-locale="es-419" value="/intl/es-419/"
-                  >Español - Latinoamérica</option
-                ><option data-locale="fr-fr" value="/intl/fr-fr/"
-                  >Français - France</option
-                ><option data-locale="it-it" value="/intl/it-it/"
-                  >Italiano - Italia</option
-                ><option data-locale="ja-jp" value="/intl/ja-jp/"
-                  >日本語 - 日本</option
-                ><option data-locale="ko-kr" value="/intl/ko-kr/"
-                  >한국어 - 대한민국</option
-                ><option data-locale="pt-br" value="/intl/pt-br/"
-                  >Português (Brasil) - Brasil</option
-                ><option data-locale="ru-ru" value="/intl/ru-ru/"
-                  >русский - Россия</option
-                ><option data-locale="th-th" value="/intl/th-th/"
-                  >ภาษาไทย - ประเทศไทย</option
-                ><option data-locale="tr-tr" value="/intl/tr-tr/"
-                  >Türkçe - Türkiye</option
-                >
-              </select>
+              <a href="#">
+                <img src="img/linkedin-2-32.png" alt="linkedin" class="social-media-icons" />
+              </a>
             </div>
-            <div class="media-bar">
-              <div>
-                <a href="#">
-                  <img
-                    src="img/linkedin-2-32.png"
-                    alt="linkedin"
-                    class="social-media-icons"
-                  />
-                </a>
-              </div>
-              <div>
-                <a href="#">
-                  <img
-                    src="img/twitter-32.png"
-                    alt="Twitter-icon"
-                    class="social-media-icons"
-                  />
-                </a>
-              </div>
-              <div>
-                <a href="#">
-                  <img
-                    src="img/facebook-2-32.png"
-                    alt="Facebook-icon"
-                    class="social-media-icons"
-                  />
-                </a>
-              </div>
-              <div>
-                <a href="#">
-                  <img
-                    src="img/120px-YouTube_light_icon_(2017).svg.png"
-                    alt="YouTube-icon"
-                    class="youtube"
-                  />
-                </a>
-              </div>
-              <div>
-                <a href="#">
-                  <img
-                    src="img/rss-32.png"
-                    alt="rss"
-                    class="social-media-icons"
-                  />
-                </a>
-              </div>
+            <div>
+              <a href="#">
+                <img src="img/twitter-32.png" alt="Twitter-icon" class="social-media-icons" />
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="img/facebook-2-32.png" alt="Facebook-icon" class="social-media-icons" />
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="img/120px-YouTube_light_icon_(2017).svg.png" alt="YouTube-icon" class="youtube" />
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="img/rss-32.png" alt="rss" class="social-media-icons" />
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
