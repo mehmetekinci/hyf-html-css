@@ -459,12 +459,16 @@ section:nth-child(3) {
     height: 50px;
   }
   
-  .right-content, .left-bottom-content, .header-nav{
+  .right-content, .left-bottom-content, .header-nav, .header-locale-select{
     display: none;
   }
 
   .visible-none{
     visibility: hidden;
+  }
+
+  .main-card-details div{
+    padding-left: 0px;
   }
 
   .card-grid-extra img {
